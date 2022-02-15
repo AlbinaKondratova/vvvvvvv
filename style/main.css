@@ -1,0 +1,335 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+header{
+    background-color: rgba(135, 80, 156, 1);
+}
+
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header-inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+}
+
+li{
+    list-style-type: none;
+    margin-left: 30px;
+    font-size: 16px;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+li:hover{
+    background-color:rgba(100, 58, 121, 1);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.text-header{
+    width: 800px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 0 auto;
+    padding: 100px 0; 
+    font-size: 26px;
+    color: white;
+    font-weight: bold;   
+    text-align: center;
+}
+
+
+button{
+    width: 300px;
+    height: 70px;
+    background-color: rgb(248, 155, 48);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+      padding-bottom: 150px;
+}
+
+.main-services{
+    background-color: rgba(23, 194, 164, 1);
+}
+
+.main-inner{
+    width: 100%;
+    display: flex;
+    padding-top: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.zagolovok-services{
+     color: white;
+    margin-top: 20px;
+}
+
+.line{
+    width: 87px;
+    height: 4px;
+    background-color: rgba(0, 0, 0, 1);
+    opacity: 0.14901960784313725;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.text-services{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+}
+
+.services{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+
+    margin-top: 100px;
+
+    padding-bottom: 100px;
+
+}
+
+.services-predloshenia{
+    width: 192px;
+
+}
+
+h3{
+    color: white;
+
+    text-transform: uppercase;
+
+    margin-top: 20px;
+
+    display: flex;
+    text-align: center;
+
+    margin-left: 30px;
+}
+
+.text{
+    color: white;
+    width: 204px;
+    height: 60px;
+
+    margin-top: 20px;
+}
+
+.img-services{
+    width: 100px;
+    height: 110px;
+
+    margin-left: 40px;
+}
+
+.img1-services{
+    width: 150px;
+    height: 110px;
+
+    margin-left: 40px;
+}
+
+.main-meet{
+    background-color: rgba(231, 241, 248, 1);
+}
+
+.main-meet-inner{
+    width: 100%;
+    display: flex;
+    padding-top: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.zagolovok-main-meet{
+      color: #3C4761;
+      margin-top: 20px;
+}
+
+.lines{
+    width: 87px;
+    height: 4px;
+    background-color: rgba(189, 209, 223, 1);
+    opacity: 0.7490196078431373;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0 auto;
+
+    margin-top: 20px;
+}
+
+.text-meet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3C4761;
+
+    margin-top: 20px;
+}
+
+.main-meet-information{
+    
+   
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+
+    margin: 0 auto;
+
+  
+}
+
+.main-meet-information h2{
+
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+}
+
+.main-meet-information p{
+    margin-left: 20px;
+}
+
+.information{
+    width:230px;
+
+    margin-bottom: 150px;
+}
+
+.who{
+    color: #30BAE7;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(135, 135, 135, 1);
+
+    border-radius: 50%;
+
+  margin-left: 15px;
+}
+
+.circles{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 30px;
+}
+
+.kryg{
+    width:32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: rgba(189, 209, 223, 1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 10px;
+}
+
+.main-gotskills{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.main-gotskills-inner{
+    width: 100%;
+    display: flex;
+    padding-top: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.zagolovok-gotskills{
+    margin-top: 20px;
+    color: #3C4761;
+}
+
+.text-gotskills p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+
+    color: #3C4761;
+}
+
+.img-gotskills{
+    width: 168px;
+    height: 176px;
+}
+
+.procenty h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.information-gotskills{
+    display: flex;
+    justify-content: space-around;
+}
+
+.procenty{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
